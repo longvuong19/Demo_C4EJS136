@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {font-family: 'Chakra Petch', sans-serif;}
+.main-title{
+    font-size: 300%;
+    font-weight: bold;
+}
+.by{
+    display: flex;
+    color: #aaa;
+    font-style: italic;
+}
+.author{
+    color: #666;
+    padding-left: 4px;
+}
+iframe{
+    width: 100%;
+}
+.side-news{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+}
+.other-news{
+    background-color: red;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 4px;
+    font-size: large;
+}
+.small-news{
+    padding: 12px;
+    border-radius: 5%;
+}
+.small-news a{
+    text-decoration: none;
+    color: black;
+}
+.small-news:hover{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.side-title{
+    margin: 8px;
+    font-weight: 600;
+}
+.game img{
+    width: 100%;
+}
+.game p{
+    padding: 4px;
+    padding-left: 0px;
+}

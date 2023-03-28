@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Ps-controller-icon.svg/2048px-Ps-controller-icon.svg.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+  
+  <div id="home">
+    
+    <div id="banner">
+      <img src="./assets/img/banner_1.jpg" alt="" class="banner-img img-fluid">
+    </div>
+
+    <div id="header" class="sticky-top">
+      <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/img/controller.jpg" alt="Bootstrap" width="60" height="52">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  PS/Xbox
+                </a>
+                <ul class="dropdown-menu" style="background-color: #e3f2fd;">
+                  <li><a class="dropdown-item" href="./index-PS.html">PlayStation</a></li>
+                  <li><a class="dropdown-item" href="./index-Xbox.html">Xbox</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./index-Switch.html">Switch</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+      </nav>
+    </div>
+
+    <div id="slide">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/img/ps5.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/xbox.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/switch.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="content">
+
+      <div class="container text-center switch-main-news">
+        <div class="row bignews">
+          <div class="col-lg-6 col-md-12 main">
+            <a href="#"><img class="main-img img-fluid" src="./assets/img/zelda.jpg" alt=""></a>
+            <a href="#">
+              <h1 class="main-title">10 game thế giới mở hay nhất dành cho Nintendo Switch</h1>
+            </a>
+            <p class="main-content">
+              Chúng tôi đã chọn ra 10 game thế giới mở hay nhất đã được phát hành dành cho Nintendo Switch.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/mine.avif" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+                <h5>Minecraft cập nhật phiên bản 1.19.70 trên Switch</h5>
+              </a>
+            </div>
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/switch4.jpg" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+                <h5>Video: Những điểm có thể tạo nên sai sót với Switch đời kế vị</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/kart8.jpg" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+              <h5>Mario Kart Tour phát hành bản cập nhật "Ninja Tour"</h5>
+              </a>
+            </div>
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/aonuma.webp" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+                <h5>Huyền thoại phát triển "Zelda" Eiji Aonuma chính thức bước sang tuổi 60</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center small-headlight">
+          <div class="col">
+            <img src="./assets/img/bayo-origin.jpg" alt="" class="img-fluid">
+            <p class="news-title">Bayonetta Origins nhận nhiều đánh giá tích cực trước ngày phát hành</p>
+          </div>
+          <div class="col">
+            <img src="./assets/img/switch2.jpg" alt="" class="img-fluid">
+            <p class="news-title">Nintendo Switch 2 có thể sắp được công bố</p>
+          </div>
+          <div class="col">
+            <img src="./assets/img/switch3.jpg" alt="" class="img-fluid">
+            <p class="news-title">Nintendo Switch sẽ ra mắt thêm nhiều game mới</p>
+          </div>
+          <div class="col last-small-news">
+            <img src="./assets/img/splatoon.jpg" alt="" class="img-fluid">
+            <p class="news-title">Splatoon 3 sẽ giới thiệu thêm nhiều sự kiện nổi bật</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center switch-main-news">
+        <div class="row bignews">
+          <div class="col-lg-6 col-md-12 main">
+            <a href="#"><img class="main-img img-fluid" src="./assets/img/nin3ds.jpg" alt=""></a>
+            <a href="#">
+              <h1 class="main-title">Nintendo 3DS ăn mừng 12 năm tuổi thọ...ngay trước khi khai tử</h1>
+            </a>
+            <p class="main-content">
+              Ngày 27 tháng 3, Nintendo 3DS kỉ niệm 12 năm tuổi tại Mỹ, chỉ trước ngày mà cửa hàng điện tử 3DS/Wii ngừng hoạt động vĩnh viễn.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/squid.jpg" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+                <h5>Splatoon 3 hé lộ bài hát mới về Squid Sisters</h5>
+              </a>
+            </div>
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/switch5.webp" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+                <h5>Tin đồn: Switch 2 sử dụng chip 5NM, mạnh hơn Steam Deck, có thể ngang Xbox Series S</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/donkey.jpg" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+              <h5>Tin đồn: Tựa game Donkey Kong mới ra mắt trên Switch?</h5>
+              </a>
+            </div>
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/kirbydream.jpg" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+                <h5>Nintendo Switch Online cập nhật Kirby's Dream Land 2, Burgertime Deluxe và nhiều tựa game khác</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center small-headlight">
+          <div class="col">
+            <img src="./assets/img/pokemon.jpg" alt="" class="img-fluid">
+            <p class="news-title">Ash sẽ bị thay thế trong những anime và game Pokemon tiếp theo</p>
+          </div>
+          <div class="col">
+            <img src="./assets/img/fzero.jpg" alt="" class="img-fluid">
+            <p class="news-title">F-Zero GX có thể sẽ có một bản remastered</p>
+          </div>
+          <div class="col">
+            <img src="./assets/img/mario.jpg" alt="" class="img-fluid">
+            <p class="news-title">Phim về Super Mario Bros tung trailer cuối cùng</p>
+          </div>
+          <div class="col last-small-news">
+            <img src="./assets/img/pokemon2.jpg" alt="" class="img-fluid">
+            <p class="news-title">Bản cập nhật Pokemon Scarlet and Violet dính lỗi xóa file save game</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center switch-main-news">
+        <div class="row bignews">
+          <div class="col-lg-6 col-md-12 main">
+            <a href="#"><img class="main-img img-fluid" src="./assets/img/legomario.jpeg" alt=""></a>
+            <a href="#">
+              <h1 class="main-title">Video "Lego Super Mario YouTube Premiere" sẽ ra mắt vào Ngày Mario năm nay</h1>
+            </a>
+            <p class="main-content">
+              Mario Lego là đồ chơi thật sự đặc biệt giữa vô vàn các loại lego khác. Và Lego cũng đã chia sẻ về việc Jack Gardner sẽ tham gia quá trình ghi hình.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/botw.jpg" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+                <h5>Người hâm mộ Breath of the Wild kỷ niệm 6 năm ra mắt game</h5>
+              </a>
+            </div>
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/switch6.jpg" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+                <h5>Nintendo Switch chính thức tròn 6 năm tuổi</h5>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/mariospark.jpg" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+              <h5>Mario + Rabbids Sparks of Hope ra mắt bản chơi thử trên Nintendo eShop</h5>
+              </a>
+            </div>
+            <div class="highlight">
+              <a href="#"><img src="./assets/img/pokemonsleep.jpg" alt="" class="highlight-img img-fluid"></a>
+              <a href="#" class="highlight-title">
+                <h5>Pokemon Sleep sẽ ra mắt cùng với Pokemon Go Plus +</h5>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center small-headlight">
+          <div class="col">
+            <img src="./assets/img/switchonline.png" alt="" class="img-fluid">
+            <p class="news-title">Nintendo Switch Online tung trailer mới</p>
+          </div>
+          <div class="col">
+            <img src="./assets/img/kirbyreturn.jpg" alt="" class="img-fluid">
+            <p class="news-title">Kirby's Return To Dream Land nhận điểm đánh giá cao</p>
+          </div>
+          <div class="col">
+            <img src="./assets/img/pokemonmystery.jpg" alt="" class="img-fluid">
+            <p class="news-title">Game mới về Pokemon Mystery Dungeon sắp được tiết lộ</p>
+          </div>
+          <div class="col last-small-news">
+            <img src="./assets/img/metroidprime.avif" alt="" class="img-fluid">
+            <p class="news-title">Hậu bản của Metroid Prime vẫn sẽ có mặt trên Nintendo Switch</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="footer">
+
+      <div id="footer_main">
+
+        <div id="footer_description">
+          <a href="./index.html" class="footer_logo img-fluid">
+            <img src="./assets/img/controller.jpg" alt="">
+          </a>
+          <p class="footerdescription"><strong>The latest news for your favorite console</strong></p>
+        </div>
+
+        <div id="footer_form">
+          <p><strong>Đăng kí để nhận những tin mới nhất từ chúng tôi</strong></p>
+          <form id="email-form" name="email-form" aria-label="Email Form" action="">
+            <input type="email" id="email" name="email" placeholder="Email Address">
+	          <button class="subcribe-btn" onclick="subscribe()">Subscribe</button>
+            <p id="result"></p>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div id="footer_contact">
+
+        <div class="socialmedia">
+          <p class="contact_caption">Theo dõi chúng tôi</p>
+          <div class="smbtns">
+            <a href="https://www.facebook.com/gameranx" class="smbtn"><i class="fb ti-facebook"></i></a>
+            <a href="https://www.youtube.com/@gameranxTV" class="smbtn"><i class="yt ti-youtube"></i></a>
+            <a href="https://twitter.com/gameranx" class="smbtn"><i class="tw ti-twitter"></i></a>
+          </div>
+        </div>
+        <div class="phone">
+          <p class="contact_caption">Gọi cho chúng tôi</p>
+          <p class="phone_number">0397 214 665</p>
+        </div>
+      </div>
+                  
+    </div>
+
+  </div>
+
+<script src="./assets/js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
